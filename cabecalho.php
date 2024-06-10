@@ -1,8 +1,8 @@
 <?php
 $servername="localhost";
 $username= "root";
-$password="";
-$dbname= "biblioteca";
+$password="usbw";
+$dbname= "imobiliaria";
 
 ?>
 
@@ -13,11 +13,12 @@ $dbname= "biblioteca";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
+    <title>Imobiliaria</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+    
 
     <!-- Example Code -->
     
@@ -36,29 +37,16 @@ $dbname= "biblioteca";
                 Cadastro
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="cadastrar_livros.php">Cadastrar Livro</a></li>
+                <li><a class="dropdown-item" href="cadastrar_imoveis.php">Cadastrar Imovel</a></li>
                 <li><a class="dropdown-item" href="cadastrar_usuarios.php">Cadastrar Usuário</a></li>
                 
               </ul>
-            </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Administrativo
+                Imoveis
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Alugar Livros</a></li>
-                <li><a class="dropdown-item" href="#">Devolver livros</a></li>
-                
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Relatório
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Listar Livros</a></li>
-                <li><a class="dropdown-item" href="#">Listar Usuários</a></li>
-                <li><a class="dropdown-item" href="#">Relatório de devolução</a></li>
+                <li><a class="dropdown-item" href="listar_imoveis.php">Listar Imoveis</a></li>
               </ul>
             </li>
 
@@ -66,7 +54,7 @@ $dbname= "biblioteca";
         </div>
       </div>
     </nav>
-    
+
       
     <!-- End Example Code -->
   </body>
