@@ -38,8 +38,6 @@ $dbname= "imobiliaria";
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="cadastrar_imoveis.php">Cadastrar Imovel</a></li>
-                <li><a class="dropdown-item" href="cadastrar_usuarios.php">Cadastrar Usuário</a></li>
-                
               </ul>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

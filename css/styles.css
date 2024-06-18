@@ -99,4 +99,7 @@ form button {
 form button:hover {
     background-color: #0056b3;
 }
- 
+ h2{
+    color: #2737c6;
+    size: 50px;
+ }
